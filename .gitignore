@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# uv
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+nohup.out
+
+# Training outputs
+outputs/
+checkpoints/
+runs/
+wandb/
+swanlog/
+swanlab/
+
+# Data
+data/raw/
+data/cache/
+data/processed/
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# Model weights and large artifacts
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
