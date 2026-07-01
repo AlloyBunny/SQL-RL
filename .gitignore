@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.egg-info/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -47,6 +48,7 @@ swanlab/
 data/raw/
 data/cache/
 data/processed/
+BIRD-Critic-SQLite-email/
 *.sqlite-wal
 *.sqlite-shm
 *.sqlite-journal
@@ -64,4 +66,3 @@ data/processed/
 tmp/
 temp/
 *.tmp
-

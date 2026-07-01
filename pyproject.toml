@@ -5,6 +5,12 @@ description = "Lightweight SQL debugging RLVR project built around BIRD-Critic s
 requires-python = ">=3.10"
 dependencies = []
 
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sql_rl*"]
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
-
