@@ -1,0 +1,17 @@
+Dear Team,
+
+Thank you for your interest in our work. The attached file contains GT solution SQLs and test case functions for BIRD-CRITIC-1.0-flash, BIRD-CRITIC-1.0-open, BIRD-CRITIC-1.0-pg and BIRD-CRITIC-1.0-sqlite.
+To get started, please follow these steps:
+
+Step 1: Use baseline/data/pull_data.py to pull the dataset from HuggingFace and combine it with this attached solution file.
+
+Step 2: Construct the baseline prompt using baseline/run/generate_prompt.sh and generate the baseline result from APIs using baseline/run/run_baseline.sh. You may use your own prompt at this step.
+
+Step 3: Build the Docker environment following documentation at https://github.com/bird-bench/BIRD-CRITIC-1/tree/main?tab=readme-ov-file#evaluation and perform the evaluation using evaluation/run/run_eval.sh (you need to set {dialect}_path to the Step 2 output path).
+
+For database setup, please refer to our coding site to download the RDBs we have already configured for PostgreSQL, MySQL, SQLServer, and Oracle. All of them follow CC-BY-SA 4.0.
+
+We welcome any suggestions to help us move forward together in advancing Real NL2SQLs.
+
+Best regards,
+BIRD Team & Google Cloud
